@@ -4,6 +4,9 @@ use strict;
 use warnings;
 use Test::More;
 
+plan( skip_all => 'Author test.  Set $ENV{TEST_AUTHOR} to true to run.')
+  unless $ENV{TEST_AUTHOR};
+
 # Ensure a recent version of Test::Pod
 my $min_tp = 1.22;
 eval "use Test::Pod $min_tp";

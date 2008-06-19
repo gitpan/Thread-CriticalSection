@@ -4,7 +4,7 @@ use warnings;
 use strict;
 use Thread::Semaphore;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 sub new {
@@ -49,7 +49,7 @@ Thread::CriticalSection - Run a coderef inside a critical section
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =head1 SYNOPSIS
 
@@ -126,6 +126,12 @@ accordingly.
 Pedro Melo, C<< <melo at cpan.org> >>
 
 
+=head1 DEVELOPMENT
+
+You can find the source for this module at
+L<http://github.com/melo/thread--criticalsection/>.
+
+
 =head1 BUGS
 
 Please report any bugs or feature requests to C<bug-thread-criticalsection at rt.cpan.org>, or through
@@ -161,9 +167,6 @@ L<http://cpanratings.perl.org/d/Thread-CriticalSection>
 L<http://search.cpan.org/dist/Thread-CriticalSection>
 
 =back
-
-
-=head1 ACKNOWLEDGEMENTS
 
 
 =head1 COPYRIGHT & LICENSE
